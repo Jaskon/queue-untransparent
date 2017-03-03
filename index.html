@@ -1,3 +1,18 @@
-<canvas id="drawingCanvas"></canvas>
+<style>
+    .patternCanvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }
+    .drawingCanvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+
+<canvas id="drawingCanvas" class="drawingCanvas" width="400" height="400"></canvas>
+<canvas id="patternCanvas" class="patternCanvas" width="400" height="400"></canvas>
 
 <script src="script.js"></script>
